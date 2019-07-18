@@ -1,0 +1,7 @@
+{
+  
+  "scripts": {
+     "cy:run": "cypress run"
+  }
+  
+}
