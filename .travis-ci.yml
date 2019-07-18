@@ -1,5 +1,9 @@
 language: node_js
-
+before_install:
+  - echo "BEFORE INSTALL START"
+  - gem install bundler
+  - echo "BEFORE INSTALL END"
+  
 node_js:
   # Node 10.3+ includes npm@6 which has good "npm ci" command
   - 10.8
